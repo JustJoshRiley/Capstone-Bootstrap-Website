@@ -1,0 +1,16 @@
+.navbar {
+    padding: 1.5rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+    margin-top: -100px;
+    z-index: 5;
+}
+.row {
+    margin-top: 100px;
+}
+.card {
+    margin: 50px;
+}
