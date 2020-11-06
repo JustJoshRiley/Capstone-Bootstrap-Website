@@ -5,8 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
         <title>Main Page</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css">
+        <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css">
         <link rel="stylesheet" href="./styles.css">
+    
     </head>
     <body>
         <nav  class="navbar navbar-expand navbar-light">
@@ -14,11 +15,50 @@
                 <a href="./landingPage.html">New Age</a>
             </header>
             <div class="navbar-nav ">
-                <a class="nav-item nav-link" href="./about.html">About</a>
+                <!-- <a class="nav-item nav-link" href="./about.html">About</a> -->
+                <button type="button"  id="modal" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    About
+                </button>
+                <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Dedicated to world class service</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                    </div>
+                </div> -->
+                
                 <a class="nav-item nav-link" href="./login.html">Log In</a>
                 <a class="nav-item nav-link" href="./signup.html">Sign Up</a>
             </div>
         </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col" style="margin-left: 10%; margin-top: 20%;">
+                    <h1>New Age</h1>
+                </div>
+                <div class="col" style="margin-right: 10%; margin-top: 10%;">
+                    <img src="./images/ray-zhuang-kxTUhg6zJwo-unsplash.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron jumbotron-fluid" style="margin-top: 20%;">
+            <div class="container">
+                <h1 class="display-4">Live Life in Luxury</h1>
+                <p class="lead">Come Look around Monday - Friday 12pm to 8pm</p>
+            </div>
+        </div>
         <div class="container">
             <div class="row">
                 <div class="card col-sm" style="width: 18rem;">
@@ -47,12 +87,7 @@
                 </div>
             </div>
         </div>
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <h1 class="display-4">Live Life in Luxury</h1>
-                <p class="lead">Come Look around Monday - Friday 12pm to 8pm</p>
-            </div>
-        </div>
+        
         <div class="card" style="width: 75vw; margin: 10%;">
             <div class="card-body">
                 <h5 class="card-title">Late Night Browsing?</h5>
@@ -94,8 +129,8 @@
                 </div>
             </div>
         </div>
-
-
+        <footer>
+            <small class="footer footer-expand footer-light" style="color: black;">Copyrighted 2020 By Joshua Riley</small>
+        </footer>
     </body>
-
 </html>
